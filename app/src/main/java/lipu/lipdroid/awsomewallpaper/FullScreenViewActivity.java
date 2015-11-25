@@ -69,8 +69,8 @@ public class FullScreenViewActivity extends Activity implements View.OnClickList
         llDownloadWallpaper.setOnClickListener(this);
 
         // setting layout buttons alpha/opacity
-        llSetWallpaper.getBackground().setAlpha(70);
-        llDownloadWallpaper.getBackground().setAlpha(70);
+        llSetWallpaper.setAlpha(70);
+        llDownloadWallpaper.setAlpha(70);
 
         Intent i = getIntent();
         selectedPhoto = (Wallpaper) i.getSerializableExtra(TAG_SEL_IMAGE);
