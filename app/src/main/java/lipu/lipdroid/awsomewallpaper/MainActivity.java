@@ -1,6 +1,7 @@
 package lipu.lipdroid.awsomewallpaper;
 
 import android.annotation.SuppressLint;
+import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.content.Intent;
@@ -25,7 +26,7 @@ import lipu.lipdroid.awsomewallpaper.app.AppController;
 import lipu.lipdroid.awsomewallpaper.picasa.model.Category;
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends Activity {
 
     private static final String TAG = MainActivity.class.getSimpleName();
     private DrawerLayout mDrawerLayout;
